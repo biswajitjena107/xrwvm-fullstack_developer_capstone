@@ -13,8 +13,9 @@ def initiate():
          "description": "Great cars. German technology"
         },
         {"name": "Kia",
-         "description": "Great cars. Korean technology"},
-        "name": "Toyota",
+         "description": "Great cars. Korean technology"
+        },
+        {"name": "Toyota",
          "description": "Great cars. Japanese technology"
         },
     ]
