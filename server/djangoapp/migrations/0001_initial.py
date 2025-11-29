@@ -35,8 +35,8 @@ class Migration(migrations.Migration):
                 ], default='SUV', max_length=10)),
                 ('year', models.IntegerField()),
                 ('car_make',
-                 models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
-                  to='djangoapp.carmake')),
+                models.ForeignKey(on_delete=django.db.models.deletion.CASCADE,
+                to='djangoapp.carmake')),
             ],
         ),
     ]
